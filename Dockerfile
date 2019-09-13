@@ -8,5 +8,5 @@ apt-get -y install apt-transport-https \
     gnupg2 \
     software-properties-common
     
-RUN usermod -a -G docker jenkins
+RUN usermod -a -G jenkins jenkins
 USER jenkins
